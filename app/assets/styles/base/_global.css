@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+code {
+  font-family: "Source Code Pro";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Source Serif Pro";
+}
