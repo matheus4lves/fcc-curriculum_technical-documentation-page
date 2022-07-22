@@ -1,0 +1,23 @@
+.site-header {
+  position: fixed;
+  background-color: $main-blue;
+  color: $main-gray;
+  width: 100%;
+  align-items: center;
+
+  &__contents {
+    display: flex;
+    align-items: center;
+    height: 56px;
+  }
+
+  &__logo {
+    height: 35px;
+    width: auto;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    margin: auto;
+  }
+}
