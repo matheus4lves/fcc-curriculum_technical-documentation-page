@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro";
+  font: 400 16px "Source Sans Pro";
+  color: #2b3a42;
 }
 
 code {
