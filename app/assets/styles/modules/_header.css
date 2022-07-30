@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: $text-gray-100;
+  max-width: 1024px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 56px;
+  margin: auto;
+
+  @mixin atMedium {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  &__logo {
+    display: block;
+    height: 35px;
+    width: auto;
+    opacity: 0.9;
+  }
+
+  &__text {
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    margin: auto;
+  }
+}
