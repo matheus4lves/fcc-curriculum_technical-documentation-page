@@ -1,0 +1,17 @@
+.sidebar {
+  width: 100%;
+  max-width: 280px;
+  display: none;
+
+  @mixin atMedium {
+    display: block;
+  }
+
+  &__inner {
+    position: sticky;
+    top: 32px;
+    max-height: 100vh;
+    padding-block: 1.5em;
+    padding-inline: 1.5em;
+  }
+}

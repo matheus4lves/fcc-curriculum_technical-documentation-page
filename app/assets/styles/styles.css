@@ -4,3 +4,6 @@
 @import "base/_global.css";
 @import "modules/_site.css";
 @import "modules/_header.css";
+@import "modules/_sidebar.css";
+@import "modules/_doc-version.css";
+@import "modules/_sidebar-item.css";

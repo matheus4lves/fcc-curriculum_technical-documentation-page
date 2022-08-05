@@ -13,7 +13,11 @@
   &__content {
     display: flex;
     position: relative;
-    margin-block-start: 60px;
-    margin-top: 60px;
+    margin-block-start: 56px;
+    margin-top: 56px;
+  }
+
+  &__sidebar {
+    flex: 0 0 280px;
   }
 }

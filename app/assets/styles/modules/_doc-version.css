@@ -1,0 +1,10 @@
+.doc-version {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid rgb(222, 222, 222);
+  padding-inline-start: 5px;
+  padding-block: 5px;
+  width: 232px;
+  color: $text-gray-600;
+}
