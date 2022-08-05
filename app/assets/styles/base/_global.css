@@ -25,4 +25,9 @@ h3 {
 
 a {
   text-decoration: none;
+  color: #1a6bac;
+}
+
+a:hover {
+  color: #144f80;
 }
